@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class DashboardPage {
     private SelenideElement heading = $("[data-test-id=dashboard]");
     private ElementsCollection cards = $$(".list__item div");
-    private static ElementsCollection depositButton = $$x("//*[@data-test-id=\"action-deposit\"]");
+    private ElementsCollection depositButton = $$x("//*[@data-test-id=\"action-deposit\"]");
 
     private SelenideElement massageErrorAccountNumber = $x("//*[@class=\"notification__content\"]");
     private SelenideElement reloadData = $x("//*[@data-test-id=\"action-reload\"]//child::span[@class=\"button__text\"]");
