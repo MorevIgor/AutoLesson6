@@ -49,4 +49,5 @@ public class DashboardPage {
     public void reloadData() {
         reloadData.click();
     }
+
 }
